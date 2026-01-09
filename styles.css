@@ -506,3 +506,17 @@ textarea {
     grid-column: span 12;
   }
 }
+/* Correction orientation photo Cléo (hero uniquement) */
+.hero-image--rotate {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image--rotate .hero-photo {
+  transform: rotate(-90deg) scale(1.1);
+  transform-origin: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
